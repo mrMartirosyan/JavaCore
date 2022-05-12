@@ -1,4 +1,5 @@
-package homework.Lesson6;
+package homework.Lesson7;
+
 
 /*
 ----------------*
@@ -13,8 +14,8 @@ package homework.Lesson6;
 ----------************
 ----------------*
 16 10 6 4 2 1 1
- */
-public class ExampleOval {
+*/
+public class ExampleFigureOval  {
     public static void main(String[] args) {
 
         for (int i = 0; i <=16; i++) {
@@ -26,4 +27,5 @@ public class ExampleOval {
             System.out.println();
         }
     }
+}
 }
