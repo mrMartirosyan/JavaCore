@@ -2,23 +2,35 @@ package homework.Lesson8.ArrayUtil;
 
 public class ArrayUtil {
     public static void main(String[] args) {
+
         int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
-        {
-            for (int i = 0; i < 1; i++) {
-                for (int j = 1; j < 10; j++) {
-                    if (array[i] < array[j]) {
-                        array[i] = array[j];
-                    }
-                }
-                System.out.println("Մասսիվի ամենամեծ թիվն է  " + array[i] + "-ը )))");
-            }
-        }
-        System.out.println(array[0]);
+
     }
 }
 
 
-// 2. Տպեք մասիվի ամենամեծ թիվը
+
+
+
+//        2.2 փորձ
+//
+//        int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
+//        for (int i = 0; i < 1; i++) {
+//            for (int j = 1; j < 10; j++) {
+//                if (array[i] < array[j]) {
+//                    array[i] = array[j];
+//                }
+//            }
+//            System.out.println("Մասսիվի ամենամեծ թիվն է  " + array[i] +
+//                    "-ը " + "((( պարզվեց մասսիվի արժեքները պետք չի փոխել");
+//        }
+//        System.out.println(array[0] + " որտև էս տողին 63-ի փոխարեն պտի էղներ 5 ");
+//    }
+//}
+
+
+// 2.1 փորձ
+// Տպեք մասիվի ամենամեծ թիվը
 //
 //    Մի քիչ գուգլ արեցի՝
 //
@@ -42,7 +54,8 @@ public class ArrayUtil {
 //}
 
 
-// 2. Տպեք մասիվի ամենամեծ թիվը - ՉՍՏԱՑՎԱԾ 1 փորձ
+// 2.0 փորձ
+// Տպեք մասիվի ամենամեծ թիվը
 
 //       int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
 //       for (int i = 1; i < 10; i++) {
