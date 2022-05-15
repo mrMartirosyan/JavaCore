@@ -3,20 +3,43 @@ package homework.Lesson8.ArrayUtil;
 public class ArrayUtil {
     public static void main(String[] args) {
         int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
-        for (int i = 0; i < 10; i++) {
-            for (int j = 1; j < 10; j++) {
-                if (array[i] > array[j]) {
-                    for (int k = j + 1; k < 10; k++) {
-                        if (array[j] > array[k]) {
-                            System.out.println(array[j]);
-                        }
+        {
+            for (int i = 0; i < 1; i++) {
+                for (int j = 1; j < 10; j++) {
+                    if (array[i] < array[j]) {
+                        array[i] = array[j];
                     }
                 }
+                System.out.println("Մասսիվի ամենամեծ թիվն է  " + array[i] + "-ը )))");
             }
         }
+        System.out.println(array[0]);
     }
-
 }
+
+
+// 2. Տպեք մասիվի ամենամեծ թիվը
+//
+//    Մի քիչ գուգլ արեցի՝
+//
+//    сначала присвойте результирующей переменной значение первого
+//    числа множества. Затем последовательно перебирайте числа множества, сравнивая
+//    их с результирующей переменной. Если это число больше, то присваивайте его значение
+//    результирующей переменной.
+//    ԱՅՍՔԱՆԸ ԲԱՎԱՐԱՐ ՀՈՒՇՈՒՄ էր - Մնացածը ինքնուրույն եմ արել:
+//    Подробнее: https://www.kakprosto.ru/kak-44515-kak-nayti-naibolshee-iz-chisel#ixzz7TNc67aCu
+
+//        int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
+//        for (int i = 0; i < 1; i++) {
+//            for (int j = 1; j < 10; j++) {
+//                if (array[i] < array[j]) {
+//                    array[i] = array[j];
+//                }
+//            }
+//            System.out.println("Մասսիվի ամենամեծ թիվն է  " + array[i] + "-ը )))");
+//        }
+//    }
+//}
 
 
 // 2. Տպեք մասիվի ամենամեծ թիվը - ՉՍՏԱՑՎԱԾ 1 փորձ
