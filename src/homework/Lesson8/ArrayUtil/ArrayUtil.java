@@ -4,22 +4,16 @@ public class ArrayUtil {
     public static void main(String[] args) {
 
         int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
-        for (int i = 0; i < 10; i++) {
-            for (int j = 1; j < 10; j++) {
-                if (array[i] < array[j]) {
-                    for (int k = 1; k < 10; k++) {
-                        for (int l = 2; l < 10; l++) {
-                            if (array[k]<array[l]){
+        int m;
 
-                            }
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                m = array[j] > array[i] ? array[j]: array[i];
 
-                        }
 
-                    }
-                }
             }
-
         }
+
     }
 }
 
