@@ -4,16 +4,33 @@ public class ArrayUtil {
     public static void main(String[] args) {
 
         int[] array = {5, 15, 7, 44, 2, 16, 37, 24, 63, 11};
-        int m;
 
+        // 5. Տպեք մասիվի բոլոր կենտ էլեմենտները
         for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                m = array[j] > array[i] ? array[j]: array[i];
 
-
+            if (array[i] % 2 == 0) {
+                System.out.print(array[i] + " ");
             }
         }
 
+
+//        // 4. Տպեք մասիվի բոլոր զույգ էլեմենտները
+//        for (int i = 0; i < array.length; i++) {
+//
+//            if (array[i] %2 ==0){
+//                System.out.print(array[i] + " ");
+//            }
+//        }
+
+
+        // 2. Տպեք մասիվի ամենամեծ թիվը
+//        int max = array[0];
+//        for (int i = 1; i < array.length; i++) {
+//            if (array[i] > max) {
+//                max = array[i];
+//            }
+//        }
+//        System.out.println("Ամենամեծ թիվն է " + max);
     }
 }
 
