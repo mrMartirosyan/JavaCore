@@ -3,33 +3,49 @@ package homework.Lesson9;
 public class Chapter5controlstatements {
     public static void main(String[] args) {
 
-        int month = 4;
-        String season;
-        switch (month){
-            case 12:
-            case 1:
-            case 2:
-                season = "Winter";
+        String str = "two";
+        switch (str){
+            case "one":
+                System.out.println("one");
                 break;
-            case 3:
-            case 4:
-            case 5:
-                season = "Spring";
+            case "two":
+                System.out.println("Two");
                 break;
-            case 6:
-            case 7:
-            case 8:
-                season = "Summer";
-                break;
-            case 9:
-            case 10:
-            case 11:
-                season = "Autumn";
-                break;
+            case "three":
+                System.out.println("Three");
             default:
-                season = "Bogus month";
+                System.out.println("no match");
+                break;
         }
-        System.out.println("April is in the " + season + ".");
+
+
+//        int month = 4;
+//        String season;
+//        switch (month){
+//            case 12:
+//            case 1:
+//            case 2:
+//                season = "Winter";
+//                break;
+//            case 3:
+//            case 4:
+//            case 5:
+//                season = "Spring";
+//                break;
+//            case 6:
+//            case 7:
+//            case 8:
+//                season = "Summer";
+//                break;
+//            case 9:
+//            case 10:
+//            case 11:
+//                season = "Autumn";
+//                break;
+//            default:
+//                season = "Bogus month";
+//        }
+//        System.out.println("April is in the " + season + ".");
 
 //        for (int i = 0; i < 12; i++) {
 //            switch (i){
