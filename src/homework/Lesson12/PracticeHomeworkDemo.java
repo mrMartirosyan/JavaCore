@@ -12,16 +12,16 @@ public class PracticeHomeworkDemo {
 
         System.out.println(demo1.nextNumber(9));
 
-        boolean equal = demo1.isTrue(7,3);
-        if (equal==true){
+        boolean equal = demo1.isTrue(7, 3);
+        if (equal) {
             System.out.println("true");
         } else {
             System.out.println("false");
         }
 
         boolean b = demo1.isUnderOrEqualZero(-4);
-        if (b==true){
-            System.out.println( "0 or less than zero");
+        if (b) {
+            System.out.println("0 or less than zero");
         } else {
             System.out.println("more than zero");
         }

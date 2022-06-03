@@ -21,27 +21,27 @@ public class PracticeHomework {
     boolean isTrue(int a, int b) {
         if (a == b) {
             return true;
-        }else return false;
+        } else return false;
     }
 
     //վերադարձնել true-եթե թիվը փոքր կամ հավասար է 0-ին։
     //մնացած դեպքերում վերադարձնել false
-    boolean isUnderOrEqualZero (int number){
-        if (number <= 0){
+    boolean isUnderOrEqualZero(int number) {
+        if (number <= 0) {
             return true;
-        }else return false;
+        } else return false;
     }
 
 
     //վերադարձնել ընդունող բուլյանի ժխտված արժեքը
-    boolean reverseBool(boolean value){
+    boolean reverseBool(boolean value) {
         return !value;
     }
 
     //վերադարձնել երկու մասիվի ամենամեծ length-ը
-    int maxLength (int array1[], int array2[]){
-        if (array1.length> array2.length){
+    int maxLength(int array1[], int array2[]) {
+        if (array1.length > array2.length) {
             return array1.length;
-        }else return array2.length;
+        } else return array2.length;
     }
 }
