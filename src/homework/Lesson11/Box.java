@@ -13,9 +13,9 @@ public class Box {
         return i * i;
     }
 
-    Box(double w, double h, double d) {
-        width = w;
-        height = h;
-        depth = d;
+    Box(double weight, double height, double depth) {
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
     }
 }

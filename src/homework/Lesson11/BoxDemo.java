@@ -7,17 +7,17 @@ public class BoxDemo {
 
         Box myBox3 = new Box(4, 5, 3);
 
-//        myBox3.vol1(1,2,3);
-//        double vol = myBox3.vol();
-//        System.out.println(vol);
-//
-//        double vol1 = myBox1.vol();
+
+        double vol = myBox3.vol();
+        System.out.println(vol);
+
+        double vol1 = myBox1.vol();
 
 //        vol = myBox1.depth* myBox1.height* myBox1.width;
 //        System.out.println("Ծավալը հավասար է " + vol);
 
 //
-//        System.out.println(myBox2.vol());
+        System.out.println(myBox1.vol());
 //
 //        System.out.println(myBox1.square(25));
 //
