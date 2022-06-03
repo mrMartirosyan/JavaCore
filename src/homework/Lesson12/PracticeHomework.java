@@ -19,9 +19,7 @@ public class PracticeHomework {
 
     //վերադարձնել true եթե տրված a և b թվերը իրար հավասար են, եթե ոչ՝ false
     boolean isTrue(int a, int b) {
-        if (a == b) {
-            return true;
-        } else return false;
+        return a == b;
     }
 
     //վերադարձնել true-եթե թիվը փոքր կամ հավասար է 0-ին։
@@ -38,6 +36,6 @@ public class PracticeHomework {
 
     //վերադարձնել երկու մասիվի ամենամեծ length-ը
     int maxLength(int array1[], int array2[]) {
-        return array1.length >= array2.length ? array1.length : array2.length;
+        return Math.max(array1.length, array2.length);
     }
 }
