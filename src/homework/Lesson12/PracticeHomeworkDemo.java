@@ -19,7 +19,7 @@ public class PracticeHomeworkDemo {
             System.out.println("false");
         }
 
-        boolean b = demo1.isUnderOrEqualZero(-4);
+        boolean b = demo1.isUnderOrEqualZero(-2);
         if (b) {
             System.out.println("0 or less than zero");
         } else {
