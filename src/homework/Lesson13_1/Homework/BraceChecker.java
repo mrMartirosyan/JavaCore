@@ -24,19 +24,19 @@ public class BraceChecker {
                 case ')':
                     if (temp.pop() != '(') {
                         System.out.println(s);
-                        temp.pop();
+
                     }
                     break;
                 case '}':
                     if (temp.pop() != '{') {
                         System.out.println(s);
-                        temp.pop();
+
                     }
                     break;
                 case ']':
                     if (temp.pop() != '[') {
                         System.out.println(s);
-                        temp.pop();
+
                     }
                     break;
             }
