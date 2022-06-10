@@ -24,4 +24,11 @@ public class StackMy {
             return stck[tos--];
         }
     }
+   public boolean isEmpty (){
+        if(tos<0){
+            return true;
+        }else {
+            return false;
+        }
+    }
 }

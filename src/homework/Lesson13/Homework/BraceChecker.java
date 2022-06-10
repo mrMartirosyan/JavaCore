@@ -17,51 +17,57 @@ public class BraceChecker {
                 case '(':
                     temp.push('(');
                     for (int j = i + 1; j < textChar.length; j++) {
+                        String errMass = "Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j;
                         switch (textChar[j]) {
                             case '}':
-                                System.out.println("Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j);
-                                temp.pop();
-                                break;
                             case ']':
-                                System.out.println("Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j);
+                                System.out.println(errMass);
                                 temp.pop();
                                 break;
                         }
+                    }
+                    if (!temp.isEmpty()) {
+                        System.out.println("Error: opened " + textChar[i] + " but didn't closed.");
                     }
                     break;
                 case '{':
                     temp.push('{');
                     for (int j = i + 1; j < textChar.length; j++) {
+                        String errMass = "Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j;
                         switch (textChar[j]) {
                             case ')':
-                                System.out.println("Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j);
-                                temp.pop();
-                                break;
                             case ']':
-                                System.out.println("Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j);
+                                System.out.println(errMass);
                                 temp.pop();
                                 break;
                         }
+                    }
+                    if (!temp.isEmpty()) {
+                        System.out.println("Error: opened " + textChar[i] + " but didn't closed.");
                     }
                     break;
                 case '[':
                     temp.push('[');
                     for (int j = i + 1; j < textChar.length; j++) {
+                        String errMass = "Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j;
                         switch (textChar[j]) {
                             case '}':
-                                System.out.println("Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j);
-                                temp.pop();
-                                break;
                             case ')':
-                                System.out.println("Error: opened " + textChar[i] + " but closed " + textChar[j] + " at " + j);
+                                System.out.println(errMass);
                                 temp.pop();
                                 break;
                         }
                     }
+                    if (!temp.isEmpty()) {
+                        System.out.println("Error: opened " + textChar[i] + " but didn't closed.");
+                    }
                     break;
             }
         }
+
     }
+
+
 }
 
 
